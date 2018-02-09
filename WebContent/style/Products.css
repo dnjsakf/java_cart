@@ -1,0 +1,44 @@
+@charset "EUC-KR";
+* {
+	user-select: none;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+html, body{
+	height: 100%;
+	width: 100%;
+}
+ul {
+	list-style-type: none;
+}
+ul#product-list{
+	padding: 10px;
+}
+ul#product-list > li.item {
+	float: left;
+	padding: 10px;
+	margin: 2px;
+	border: 1px solid gray;
+}
+ul#product-list > li.item:hover{
+	cursor: pointer;
+	background-color: lightgray;
+}
+ul#product-list > li.item > ul.item-information {
+	text-align: center;
+}
+ul#product-list > li.item > ul.item-information > li.item-image > img {
+	height: auto;
+	width: 180px;
+}
+ul#product-list > li.item > ul.item-information > li.item-number {
+	text-align: left;
+}
+ul.item-information a{
+	text-decoration: none;
+	color: black;
+}
+ul.item-information a:hover{
+	color: red;
+}

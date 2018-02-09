@@ -1,0 +1,42 @@
+@charset "EUC-KR";
+
+* {
+	user-select: none;
+}
+
+ol{
+	padding: 0 10px 0 10px;
+}
+
+li.cart-item {
+	display: flex;
+}
+li.cart-item:last-child {
+	border-top: solid 2px gray;
+}
+
+li.cart-item > div {
+	text-align: center;
+}
+li.cart-item > div:nth-child(1) {
+	flex: 1;	
+}
+li.cart-item > div:nth-child(2) {
+	flex: 3;
+}
+li.cart-item > div:nth-child(3) {
+	flex: 2;
+}
+li.cart-item > div:nth-child(4) {
+	flex: 3;
+}
+li.cart-item > div:nth-child(5) {
+	flex: 1; 
+}
+
+.decrease:hover{
+	cursor: pointer;
+}
+.increase:hover{
+	cursor: pointer;
+}
